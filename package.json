@@ -8,6 +8,7 @@
   "scripts": { 
     "server":"live-server public/",
     "build":"webpack",
+    "build:prod":"webpack --env=production",
     "dev-server":"webpack serve",
     "test":"jest --config=jest.config.json"
   },
