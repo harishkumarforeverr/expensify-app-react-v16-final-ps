@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import ExpenseListItem from "../../components/ExpenseListItem" 1`] = `
+<div>
+  <Link
+    to="edit/2"
+  >
+    <h3>
+      credit Card
+       
+    </h3>
+    <p>
+      ₹
+      4,500
+      -
+      5th Jan, 1970
+    </p>
+  </Link>
+</div>
+`;

@@ -8,7 +8,8 @@
   "scripts": { 
     "server":"live-server public/",
     "build":"webpack",
-    "dev-server":"webpack serve"
+    "dev-server":"webpack serve",
+    "test":"jest --config=jest.config.json"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",

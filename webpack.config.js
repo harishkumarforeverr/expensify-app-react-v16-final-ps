@@ -11,15 +11,23 @@ module.exports={
          loader:"babel-loader",
          test:/\.js$/,
          exclude:/node_modules/
+     },{
+         test:/\.s?css$/,
+         use:[
+             "style-loader",
+             "css-loader",
+             "sass-loader",
+         ],
      }]
     },
+    // devtool:"eval-cheap-module-source-map", // for debugging the code
     mode:"development",
     devServer:{
         contentBase:path.join(__dirname,"public"),
-        port:9000
+        port:9000,
+        historyApiFallback:true
     }
 };
 
 // devtool:"eval", // for build code fastly
 //or
-// devtool:"eval-cheap-module-source-map", // for debugging the code

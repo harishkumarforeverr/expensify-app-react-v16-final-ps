@@ -36,6 +36,7 @@ visual studio code
 alt+shit+mouse = selected at repeated place according to oour wish
 6) press ctr+space you will give recommenatation from the vs code
 7) ctr+down key or up key to move the page up and down
+8) press alt+up arrow key /dowm arrow key to move line up and down
 
 
 To rest vscode

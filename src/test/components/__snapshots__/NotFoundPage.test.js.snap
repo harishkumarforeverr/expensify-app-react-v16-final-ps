@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import NotFoundPage from "../../components/NotFoundPage" 1`] = `
+<div>
+  <h1>
+     NotFoundPage 404  
+  </h1>
+  <Link
+    to="/"
+  >
+    Go Home
+  </Link>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import {ExpenseList} from "../../components/ExpenseList with no expenses" 1`] = `
+<div>
+  <p>
+    No Expenses
+  </p>
+</div>
+`;
+
+exports[`import {ExpenseList} from "../../components/ExpenseList" 1`] = `
+<div>
+  <ExpenseListItem
+    amount={195}
+    createdAt={0}
+    description="Gun"
+    id={0}
+    key="0"
+    note=""
+  />
+  <ExpenseListItem
+    amount={109500}
+    createdAt={"1969-12-28T00:00:00.000Z"}
+    description="rent"
+    id={1}
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={4500}
+    createdAt={"1970-01-05T00:00:00.000Z"}
+    description="credit Card"
+    id={2}
+    key="2"
+    note=""
+  />
+</div>
+`;

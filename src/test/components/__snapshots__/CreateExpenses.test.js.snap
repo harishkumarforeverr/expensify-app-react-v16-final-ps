@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import CreateExpenses from  "../../components/CreateExpenses"; 1`] = `
+<div>
+  <h1>
+     Add Expense 
+  </h1>
+  <ExpensesForm
+    onSubmit={[Function]}
+  />
+</div>
+`;
