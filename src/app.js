@@ -20,34 +20,3 @@ const jsx=(
 
 ReactDOM.render(jsx ,document.getElementById("app"));
  
-// store.dispatch(addExpense({
-//                     description:"water bill", 
-//                     amount:4500, 
-//                     createdAt:moment()
-//               }))
-
-// store.dispatch(addExpense({
-//                 description:"Gas bill", 
-//                 createdAt:moment()
-//           }))
-
-
-// store.dispatch(addExpense({
-//                 description:"rent", 
-//                 amount:109500,
-//                 createdAt:moment()
-//           }))
-
-// store.subscribe(()=>{ 
-//     console.log(store.getState().filters.startDate,moment(store.getState().filters.startDate).format("MMM Do"))
-//     console.log(store.getState().filters.endDate,moment(store.getState().filters.endDate).format("MMM Do"))
-//     console.log(store.getState().expenses[0].createdAt, moment(store.getState().expenses[0].createdAt).format("MMM Do"))
-//     setTimeout(()=>{ 
-//         console.log(store.getState().expenses[0].createdAt, moment(store.getState().expenses[1].createdAt).format("MMM Do"))
-//     },8000)
-// })
-
-// const state=store.getState();
-// const visibleExpense=getVisibleExpense(state.expenses, state.filters);
-// console.log(visibleExpense);  
-
