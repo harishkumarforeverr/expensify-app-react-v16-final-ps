@@ -6,6 +6,8 @@
   "author": "",
   "license": "ISC",
   "scripts": { 
+    "start":"node server/server.js",
+    "heroku-postbuild":"yarn run build:prod",
     "server":"live-server public/",
     "build":"webpack",
     "build:prod":"webpack --env=production",
