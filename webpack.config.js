@@ -12,7 +12,7 @@ module.exports=(env)=>{
         entry:"./src/app.js",
         output:{
             filename:"bundle.js",
-            path:path.join(__dirname,"public")
+            path:path.join(__dirname,"public","dist")
         },
         module:{
          rules:[
@@ -46,7 +46,7 @@ module.exports=(env)=>{
         mode:env.production?"production":"development",
         devServer:{
             contentBase:path.join(__dirname,"public"),
-            // contentBasePublicPath:path.join(__dirname,"public","dist"),
+            publicPath:"/dist/",
             port:9000,
             historyApiFallback:true
         },

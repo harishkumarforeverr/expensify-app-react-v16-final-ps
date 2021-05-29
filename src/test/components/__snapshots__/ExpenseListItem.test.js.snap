@@ -10,8 +10,11 @@ exports[`import ExpenseListItem from "../../components/ExpenseListItem" 1`] = `
        
     </h3>
     <p>
-      ₹
-      4,500
+      <span>
+        ₹
+        4,500
+          
+      </span>
       -
       5th Jan, 1970
     </p>

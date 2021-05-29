@@ -2,6 +2,7 @@
 
 exports[`import DashBoardExpenses from "../../components/DashBoardExpenses" 1`] = `
 <div>
+  <Connect(ExpenseSummary) />
   <Connect(ExpenseListFilter) />
   <Connect(ExpenseList) />
 </div>

@@ -9,9 +9,9 @@ const ExpenseListItem=({description,amount,createdAt,id })=>{
            <Link to={`edit/${id}`}>
            <h3>{description} </h3> 
            <p>  
-              &#x20B9;{formatAmount(parseFloat(amount,10)) } 
+              {amount && <span>&#x20B9;{formatAmount(parseFloat(amount,10)) }  </span>}
               - 
-              {moment(createdAt).format("Do MMM, YYYY")}  
+              {createdAt.format("Do MMM, YYYY") }  
            </p> 
            </Link> 
         </div>

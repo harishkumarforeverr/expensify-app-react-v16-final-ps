@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAQAY2_BTNpgMt9xGwI7AnLtlvYY7CIAcE",
+    authDomain: "expensify-app-2021-v15.firebaseapp.com",
+    projectId: "expensify-app-2021-v15",
+    storageBucket: "expensify-app-2021-v15.appspot.com",
+    messagingSenderId: "86366805035",
+    appId: "1:86366805035:web:b74d972c1011c91d829e6e",
+    measurementId: "G-R1S7WKB35V"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot import {ExpenseSummary} from "../../components/ExpenseSummary"; 1`] = `<div />`;
+
+exports[`should match snapshot import {ExpenseSummary} from "../../components/ExpenseSummary"; 2`] = `
+<div>
+  <h1>
+    Viewing 
+    1
+      
+    expense
+     of totaling 
+    909
+      
+  </h1>
+</div>
+`;
+
+exports[`should match snapshot import {ExpenseSummary} from "../../components/ExpenseSummary"; 3`] = `
+<div>
+  <h1>
+    Viewing 
+    10
+      
+    expenses
+     of totaling 
+    90900
+      
+  </h1>
+</div>
+`;
