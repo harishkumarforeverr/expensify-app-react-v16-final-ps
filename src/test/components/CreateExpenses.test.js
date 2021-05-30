@@ -3,9 +3,9 @@ import {shallow} from "enzyme";
 import {CreateExpenses} from  "../../components/CreateExpenses"; 
 import expenses from "../fixtures/expenses";
 
-let addExpense,history;
+let startAddExpenses,history;
 beforeEach(()=>{
-    addExpense=jest.fn();
+    startAddExpenses=jest.fn();
     history={
         push:jest.fn()
     }
@@ -14,11 +14,11 @@ beforeEach(()=>{
 test('import CreateExpenses from  "../../components/CreateExpenses";',()=>{
     const wrapper=shallow(
                 <CreateExpenses 
-                    addExpense={addExpense}
+                    startAddExpenses={startAddExpenses}
                     history={history} 
                 />);
     expect(wrapper).toMatchSnapshot();
     wrapper.find("ExpensesForm").prop("onSubmit")(expenses);
-    expect(addExpense).toHaveBeenLastCalledWith(expenses);
+    expect(startAddExpenses).toHaveBeenLastCalledWith(expenses);
     expect(history.push).toHaveBeenLastCalledWith("/")
 })

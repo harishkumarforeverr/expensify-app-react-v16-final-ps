@@ -1,12 +1,22 @@
 const promise=new Promise((resolve,reject)=>{ 
-      // resolve({
-			// name:"harish",
-			// age:21
-		// }); 
-		reject("something went wrong IIIIIIIIIIIII");
+      setTimeout(()=>{
+        resolve({
+			name:"harish",
+			age:21
+		});  
+      },5000);
 }) 
 
-promise.then((data)=>{
+promise
+.then((data)=>{
     console.log(data);
-},(error)=>console.log("gari",error))
+     return new Promise((resolve,reject)=>{
+     resolve("my new kkkkkkkkkkkkkkkkkkk");
+  });
+})
+.then((str)=>{
+      console.log("---------------------",str);
+    console.log("Does these resolved 2nd time alsso",str)
+})
+.catch((error)=>console.log("gari",error))
  

@@ -4,6 +4,7 @@ cd All P F\React\i-app
 file-maanger
 1) f4 to copy the url of any(current) folder, its very useffull for passing the folder destination in cmd by  (ctr+space in cmd)
 2) f2 to rename the folder/file name
+3)alt+D to copy th current url of folder
 
 
 window command 

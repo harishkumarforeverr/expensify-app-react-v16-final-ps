@@ -7,9 +7,9 @@ exports[`should match snapshot import {ExpenseSummary} from "../../components/Ex
   <h1>
     Viewing 
     1
-      
+     
     expense
-     of totaling 
+     of totaling ₹
     909
       
   </h1>
@@ -21,10 +21,10 @@ exports[`should match snapshot import {ExpenseSummary} from "../../components/Ex
   <h1>
     Viewing 
     10
-      
+     
     expenses
-     of totaling 
-    90900
+     of totaling ₹
+    90,900
       
   </h1>
 </div>

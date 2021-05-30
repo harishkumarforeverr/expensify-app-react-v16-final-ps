@@ -9,10 +9,10 @@
     "start":"node server/server.js",
     "heroku-postbuild":"yarn run build:prod",
     "server":"live-server public/",
-    "build":"webpack",
+    "build":"cross-env NODE_ENV=development webpack",
     "build:prod":"webpack --env=production",
-    "dev-server":"webpack serve",
-    "test":"jest --config=jest.config.json"
+    "dev-server":"cross-env NODE_ENV=development webpack serve",
+    "test":"cross-env NODE_ENV=testing jest --config=jest.config.json"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",

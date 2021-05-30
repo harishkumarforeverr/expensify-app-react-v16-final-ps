@@ -3,14 +3,15 @@ import "firebase/database";
 import "firebase/auth";
    
   //firebaseConfig
-  var firebaseConfig = {
-    apiKey: "AIzaSyAQAY2_BTNpgMt9xGwI7AnLtlvYY7CIAcE",
-    authDomain: "expensify-app-2021-v15.firebaseapp.com",
-    projectId: "expensify-app-2021-v15",
-    storageBucket: "expensify-app-2021-v15.appspot.com",
-    messagingSenderId: "86366805035",
-    appId: "1:86366805035:web:b74d972c1011c91d829e6e",
-    measurementId: "G-R1S7WKB35V"
+var firebaseConfig = {
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    databaseURL: process.env.FIREBASE_URL,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.FIREBASE_APP_ID,
+    measurementId: process.env.FIREBASE_MEASUREMENT_ID
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -18,7 +19,103 @@ import "firebase/auth";
   // conecting database
  const database=firebase.database();
  
+  // exporting 
+
+  export {firebase,database as default};
+
+
+
+
+
+
  // playing with database
+
+// ------------------------------  section 15th starts here here--------------------------------------------
+
+
+
+// ------------------------------  section 15th ends here here--------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
